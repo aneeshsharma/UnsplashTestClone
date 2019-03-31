@@ -226,7 +226,7 @@ input{
   .landing{
     padding: 7% 20px;
   }
-  
+
   .left-caption{
     display: none;
   }
@@ -309,11 +309,7 @@ input{
   margin: 15px;
 }
 
-@media only screen and (max-width: 1200px){
-  .photo-column{
 
-  }
-}
 
 .photo{
   position: relative;
@@ -393,7 +389,7 @@ input{
   color: white;
 }
 
-.info button{
+.photo button{
   color: grey;
   background-color: #eee;
   padding: 10px 15px;
@@ -402,10 +398,72 @@ input{
   border-radius: 5px;
 }
 
-.info button:hover{
+.photo button:hover{
   background-color: white;
 }
 
+.like-btns button:hover{
+  background-color: white;
+}
+
+.download-btns button:hover{
+  background-color: white;
+}
+
+.author{
+  display: none;
+  padding: 10px 10px;
+}
+
+.author a{
+  text-decoration: none;
+  color: grey;
+}
+
+.author img{
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  border-radius: 100%;
+  border: none;
+}
+
+.like-btns{
+  display: none;
+  float: left;
+  padding: 10px;
+}
+
+.download-btns{
+  display: none;
+  float: right;
+  padding: 10px;
+}
+
+@media only screen and (max-width: 768px){
+  .photo-column{
+    margin: 0;
+    width: 100%;
+  }
+  .photos-container{
+    padding: 20px 0px;
+  }
+  .photo{
+    margin: 0 0 70px 0;
+  }
+  .info{
+    display: none;
+  }
+  .author{
+    display: flex;
+  }
+  .like-btns{
+    display: flex;
+  }
+  .download-btns{
+    display: flex;
+  }
+}
 
 @keyframes appear-bottom {
   from{
