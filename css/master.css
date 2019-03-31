@@ -396,6 +396,7 @@ input{
   margin: 0 5px;
   border: none;
   border-radius: 5px;
+  border: 1px solid lightgrey;
 }
 
 .photo button:hover{
